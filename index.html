@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VIJAY KC | Frontend Developer</title>
+
+    <link rel="icon" type="image/x-icon" href="/media/vijay-favicon.jpg" />
+
+    <link rel="stylesheet" href="/styling.css" />
+    <link rel="stylesheet" href="/style-library.css" />
+  </head>
+  <body>
+    <section class="section-navigation">
+      <div class="navbar">
+        <div class="toggle-menu" onclick="myFunction()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon-toggle"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </div>
+        <div class="header-logo">
+          <a href="/index.html"><h1>vijay kc</h1></a>
+        </div>
+        <div class="empty-div"></div>
+      </div>
+    </section>
+
+    <section class="hidden-menu hide">
+      <div class="navbar-hidden-menu">
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h2>Namaste, <span class="yellow-txt">I'm Vijay KC</span></h2>
+          <p class="header-detail">
+            A Frontend Web Developer, Based in Helsinki
+          </p>
+          <br />
+          <p class="light-txt">
+            Highly passionate and UI/UX enthusiast web developer to produce
+            user-friendly and quality web developing
+          </p>
+        </div>
+        <div class="hero-image"><img src="/media/vijaykc-bg.png" /></div>
+      </div>
+    </section>
+
+    <section class="section-about-me" id="about-me">
+      <div class="about-me-text">
+        <h3 class="about-me-heading">About me</h3>
+        <p>
+          <em>I make websites.</em><br /><br />
+          The interest in websites first seeded when I started to play with
+          Blogspot and WordPress. Now that I started to learn coding and
+          programming after years of yearning, sky is the limit for
+          creativity.<br /><br />
+          Driven by the longing passion, my goal now is to become a full stack
+          web developer. I have self-taught myself the fundamentals of web
+          developing and soon I am training myself academically with the full
+          stack web developer course at Business College Helsinki, specialized
+          in React and Node.<br /><br />
+          Keep tuning in for progress and projects.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-expertise">
+      <h3>I work in</h3>
+      <div class="expertise">
+        <div class="card html5">HTML5</div>
+        <div class="card css3">CSS3</div>
+        <div class="card bootstrap">Bootstrap</div>
+        <div class="card javascript">JavaScript</div>
+        <div class="card jquery">jQuery</div>
+      </div>
+    </section>
+
+    <section class="section-projects"></section>
+
+    <section class="section-contact">
+      
+      <div class="contact-form">
+        <h3>Message me</h3>
+        <input type="text" class="name" placeholder="Your name*" required />
+        <input type="email" class="email" placeholder="Your email*" required />
+        <textarea
+          class="message"
+          placeholder="Your message (max. 500 characters)*"
+          max-length="500"
+          required
+        ></textarea>
+
+        <p class="captcha-heading">Please enter captcha® code.</p>
+
+        <div class="captcha">
+          <div class="captcha-text-field">
+          <input class="captcha-text" disabled><img class="captcha-reload" src="/media/reload.png" width="20px" alt="reload captcha"></input></div>
+          <div class="captcha-input-field"><input class="captcha-input"><img class="captcha-correct" src="/media/check.png" width="20px" alt="correct"></input></div>
+        </div>
+        <button type="submit" class="send">Send Message</button>
+        
+        <p class="warning-text"></p>
+      </div>
+      <div class="contact-side-img"></div>
+    </section>
+
+    <section class="section-social" id="contacts">
+      <h3>Or, visit me at</h3>
+      <div class="social-contacts">
+        <a href="https://www.github.com/kcvijay"
+          ><img src="/media/icon-github.png" alt="github icon"
+        /></a>
+        <a href="https://www.linkedin.com/in/vijaykc"
+          ><img src="/media/icon-linkedin.png" alt="linkedin icon"
+        /></a>
+        <a href="https://www.twitter.com/mrchhetriko"
+          ><img src="/media/icon-twitter.png" alt="twitter icon"
+        /></a>
+      </div>
+    </section>
+
+    <section class="section-footer">
+      <p>Vijay K.C. 2022</p>
+    </section>
+    <script src="/scripts.js"></script>
+  </body>
+</html>
